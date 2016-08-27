@@ -62,9 +62,7 @@
 Route::group(['prefix' => '1'], function($app)
 {
 	# System
-	$app->get('ping', 'ApiController@ping');
-	$app->get('icds', 'ApiController@icds');
-	$app->get('mail', 'ApiController@mail');
+	$app->get('ping', 'ApiController@ping');]
 });
 
 
